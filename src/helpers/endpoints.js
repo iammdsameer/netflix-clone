@@ -1,4 +1,4 @@
-let API_KEY = '86c352242dc5a8b827d08c598a1e04ef'
+let API_KEY = process.env.API_KEY
 
 const urls = {
   getTrending: `/trending/all/week?api_key=${API_KEY}`,
